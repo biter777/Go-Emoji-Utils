@@ -34,7 +34,7 @@ func LoadFromFile(filepath string) error {
 		return err
 	}
 
-	EmojisTmp := map[string]Emoji // new map
+	EmojisTmp := make(map[string]Emoji) // new map
 	err = json.Unmarshal(byteValue, &EmojisTmp)
 	if err != nil {
 		return err
