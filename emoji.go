@@ -5,11 +5,9 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"path"
-	"runtime"
 	"strings"
 
-	"github.com/tmdvs/Go-Emoji-Utils/utils"
+	"github.com/biter777/Go-Emoji-Utils/utils"
 )
 
 // Emoji - Struct representing Emoji
@@ -19,35 +17,31 @@ type Emoji struct {
 	Descriptor string `json:"descriptor"`
 }
 
-// Unmarshal the emoji JSON into the Emojis map
-func init() {
-	// Work out where we are in relation to the caller
-	_, filename, _, ok := runtime.Caller(0)
-	if !ok {
-		panic("No caller information")
-	}
-
+// LoadFromFile - Load the Emoji definition JSON file and Unmarshal into map
+// As example of filepath: "/path/data/emoji.json"
+func LoadFromFile(filepath string) error {
 	// Open the Emoji definition JSON and Unmarshal into map
-	jsonFile, err := os.Open(path.Dir(filename) + "/data/emoji.json")
+	jsonFile, err := os.Open(filepath)
 	if jsonFile != nil {
 		defer jsonFile.Close()
 	}
-	if err != nil && len(Emojis) < 1 {
-		fmt.Println(err)
-	}
-
-	byteValue, e := ioutil.ReadAll(jsonFile)
-	if e != nil {
-		if len(Emojis) > 0 { // Use build-in emojis data (from emojidata.go)
-			return
-		}
-		panic(e)
-	}
-
-	err = json.Unmarshal(byteValue, &Emojis)
 	if err != nil {
-		panic(e)
+		return err
 	}
+
+	byteValue, err := ioutil.ReadAll(jsonFile)
+	if err != nil {
+		return err
+	}
+
+	EmojisTmp := map[string]Emoji // new map
+	err = json.Unmarshal(byteValue, &EmojisTmp)
+	if err != nil {
+		return err
+	}
+	Emojis = EmojisTmp
+
+	return nil
 }
 
 // LookupEmoji - Lookup a single emoji definition
