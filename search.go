@@ -1,3 +1,4 @@
+// Package emoji - package emoji
 package emoji
 
 import (

@@ -1,9 +1,11 @@
+// Package emoji - package emoji
 package emoji
 
 import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"math/rand"
 	"os"
 	"strings"
 
@@ -90,4 +92,15 @@ func RemoveAll(input string) string {
 	// Remove and trim and left over whitespace
 	return strings.TrimSpace(strings.Join(strings.Fields(input), " "))
 	//return input
+}
+
+// Random - random Emoji
+func Random() Emoji {
+	rnd := rand.Intn(len(Emojis))
+	for i, e := range Emojis {
+		if rnd == i {
+			return e
+		}
+	}
+	return Emoji{}
 }

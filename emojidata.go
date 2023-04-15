@@ -1,3 +1,4 @@
+// Package emoji - package emoji
 package emoji
 
 // Emojis - Map of Emoji Runes as Hex keys to their description
