@@ -97,10 +97,12 @@ func RemoveAll(input string) string {
 // Random - random Emoji
 func Random() Emoji {
 	rnd := rand.Intn(len(Emojis))
-	for i, e := range Emojis {
-		if rnd == i {
+	var count int
+	for _, e := range Emojis {
+		if rnd == count {
 			return e
 		}
+		count++
 	}
 	return Emoji{}
 }

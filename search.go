@@ -139,7 +139,7 @@ func FindAll(input string) (detectedEmojis SearchResults) {
 						Match:       e,
 						Occurrences: 1,
 						Locations: [][]int{
-							[]int{index, index + emojiRuneLength},
+							{index, index + emojiRuneLength},
 						},
 					})
 				}
