@@ -4,7 +4,7 @@ package emoji
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"math/rand"
 	"os"
 	"strings"
@@ -31,7 +31,7 @@ func LoadFromFile(filepath string) error {
 		return err
 	}
 
-	byteValue, err := ioutil.ReadAll(jsonFile)
+	byteValue, err := io.ReadAll(jsonFile)
 	if err != nil {
 		return err
 	}

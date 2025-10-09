@@ -18,6 +18,14 @@ type SearchResult struct {
 // SearchResults - The result of a search
 type SearchResults []SearchResult
 
+// Len - total len
+func (results SearchResults) Len() (l int) {
+	for _, r := range results {
+		l += r.Occurrences
+	}
+	return l
+}
+
 // IndexOf - Check to see if search results contains a specific element
 func (results SearchResults) IndexOf(result interface{}) int {
 	for i, r := range results {
@@ -52,6 +60,25 @@ func Find(emojiString string, input string) (result SearchResult, err error) {
 
 	// The emoji wasn't found, return an error
 	return result, errors.New("Emoji was not found")
+}
+
+// ContainsAny - ContainsAny
+// func ContainsAny(emojiString []string, input string) bool {
+func ContainsAny(input string, emojiString ...string) bool {
+	var emoji Emoji
+	var err error
+	allEmoji := FindAll(input)
+	for i := 0; i < len(allEmoji); i++ {
+		for j := 0; j < len(emojiString); j++ {
+			if emoji, err = LookupEmoji(emojiString[j]); err != nil {
+				continue
+			}
+			if allEmoji[i].Match.(Emoji).Key == emoji.Key {
+				return true
+			}
+		}
+	}
+	return false
 }
 
 // FindAll - Find all instances of emoji
@@ -162,4 +189,85 @@ func findEmoji(term string, list map[string]Emoji) (results map[string]Emoji) {
 		}
 	}
 	return
+}
+
+// FindFirst - Find first emoji
+func FindFirst(input string) *Emoji {
+
+	// Convert our string to UTF runes
+	runes := []rune(input)
+
+	// Any potential modifiers such as a skin tone/gender
+	detectedModifiers := map[int]bool{}
+
+	// Loop over each "word" in the string
+	for index, r := range runes {
+
+		// If this index has been flaged as a modifier we do
+		// not want to process it again
+		if detectedModifiers[index] {
+			continue
+		}
+
+		// Grab the initial hex value of this run
+		hexKey := utils.RunesToHexKey([]rune{r})
+
+		// Ignore any basic runes, we'll get funny partials
+		// that we dont care about
+		if len(hexKey) < 4 {
+			continue
+		}
+
+		previousKey := hexKey
+		potentialMatches := Emojis
+		nextIndex := index + 1
+
+		for {
+			// Search the Emoji definitions map to see if we have
+			// any matching results
+			potentialMatches = findEmoji(hexKey, potentialMatches)
+
+			// We found a definitive match
+			if len(potentialMatches) == 1 {
+				break
+			} else if len(potentialMatches) == 0 {
+				// We didnt find anything, so we'll check if its a single rune emoji
+				// Reset to original hexKey
+				if _, match := Emojis[previousKey]; match {
+					potentialMatches[previousKey] = Emojis[previousKey]
+				}
+
+				// Definately no modifiers
+				detectedModifiers = map[int]bool{}
+
+				break
+			} else {
+				// Have we hit the last rune? If so we'll stop
+				if nextIndex == len(runes) {
+					// We need to return the match for this current key
+					potentialMatches = map[string]Emoji{
+						hexKey: Emojis[hexKey],
+					}
+					break
+				}
+
+				// We have more than one potential match so we'll add the
+				// next UTF rune to the key and search again!
+				previousKey = hexKey
+				hexKey = hexKey + "-" + utils.RunesToHexKey([]rune{runes[nextIndex]})
+				detectedModifiers[nextIndex] = true
+				nextIndex++
+			}
+		}
+
+		// Loop over potential matches and ensure we're not counting partials
+		for key, e := range potentialMatches {
+			if _, match := Emojis[key]; match {
+				return &e
+			}
+		}
+	}
+
+	// Return a map of Emojis and their counts
+	return nil
 }

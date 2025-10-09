@@ -3,6 +3,149 @@ package emoji
 
 // Emojis - Map of Emoji Runes as Hex keys to their description
 var Emojis = map[string]Emoji{
+	// by biter:
+	"1FAC2": {
+		Key:        "1FAC2",
+		Value:      "🫂",
+		Descriptor: "Friendship",
+	},
+	"1FAE0": {
+		Key:        "1FAE0",
+		Value:      "🫠",
+		Descriptor: "Melting face",
+	},
+	"1F972": {
+		Key:        "1F972",
+		Value:      "🥲",
+		Descriptor: "Melting face",
+	},
+	"1FAE2": {
+		Key:        "1FAE2",
+		Value:      "🫢",
+		Descriptor: "Melting face",
+	},
+	"1FAE3": {
+		Key:        "1FAE3",
+		Value:      "🫣",
+		Descriptor: "Melting face",
+	},
+	"1FAE5": {
+		Key:        "1FAE5",
+		Value:      "🫥",
+		Descriptor: "Melting face",
+	},
+	"1FAE8": {
+		Key:        "1FAE8",
+		Value:      "🫨",
+		Descriptor: "Melting face",
+	},
+	"1F978": {
+		Key:        "1F978",
+		Value:      "🥸",
+		Descriptor: "Disguised face",
+	},
+	"1FACE": {
+		Key:        "1FACE",
+		Value:      "🫎",
+		Descriptor: "Moose",
+	},
+	"1FACF": {
+		Key:        "1FACF",
+		Value:      "🫏",
+		Descriptor: "Donkey",
+	},
+	"1F9AC": {
+		Key:        "1F9AC",
+		Value:      "🦬",
+		Descriptor: "Bison",
+	},
+	"1F9A3": {
+		Key:        "1F9A3",
+		Value:      "🦣",
+		Descriptor: "Mammoth",
+	},
+	"1F9AB": {
+		Key:        "1F9AB",
+		Value:      "🦫",
+		Descriptor: "Beaver",
+	},
+	"1F9A4": {
+		Key:        "1F9A4",
+		Value:      "🦤",
+		Descriptor: "Dodo",
+	},
+	"1FAB6": {
+		Key:        "1FAB6",
+		Value:      "🪶",
+		Descriptor: "Feather",
+	},
+	"1FABF": {
+		Key:        "1FABF",
+		Value:      "🪿",
+		Descriptor: "Goose",
+	},
+	"1F9AD": {
+		Key:        "1F9AD",
+		Value:      "🦭",
+		Descriptor: "Seal",
+	},
+	"1FAB8": {
+		Key:        "1FAB8",
+		Value:      "🪸",
+		Descriptor: "Coral",
+	},
+	"1FABC": {
+		Key:        "1FABC",
+		Value:      "🪼",
+		Descriptor: "Jellyfish",
+	},
+	"1FAB2": {
+		Key:        "1FAB2",
+		Value:      "🪲",
+		Descriptor: "Beetle",
+	},
+	"1FAB0": {
+		Key:        "1FAB0",
+		Value:      "🪰",
+		Descriptor: "Fly",
+	},
+	"1FAB1": {
+		Key:        "1FAB1",
+		Value:      "🪱",
+		Descriptor: "Worm",
+	},
+	"1F977": {
+		Key:        "1F977",
+		Value:      "🥷",
+		Descriptor: "Ninja",
+	},
+	"1F9CC": {
+		Key:        "1F9CC",
+		Value:      "🧌",
+		Descriptor: "Troll",
+	},
+	"1F574": {
+		Key:        "1F574",
+		Value:      "🕴",
+		Descriptor: "Man in suit levitating",
+	},
+	"1FAC5": {
+		Key:        "1FAC5",
+		Value:      "🫅",
+		Descriptor: "Person with crown",
+	},
+	"1FAC3": {
+		Key:        "1FAC3",
+		Value:      "🫃",
+		Descriptor: "Pregnant man",
+	},
+	"1FAC4": {
+		Key:        "1FAC4",
+		Value:      "🫄",
+		Descriptor: "Pregnant 1FAC4",
+	},
+
+	// original:
 	"1F004": {
 		Key:        "1F004",
 		Value:      "🀄",
@@ -4901,6 +5044,11 @@ var Emojis = map[string]Emoji{
 	"1F468-200D-1F469-200D-1F467-200D-1F467": {
 		Key:        "1F468-200D-1F469-200D-1F467-200D-1F467",
 		Value:      "👨‍👩‍👧‍👧",
+		Descriptor: "Family: Man, Woman, Girl, Girl",
+	},
+	"1F468-200D-1F469-200D-1F467-200D-1F469": {
+		Key:        "1F468-200D-1F469-200D-1F467-200D-1F469",
+		Value:      "👨‍👩‍👧",
 		Descriptor: "Family: Man, Woman, Girl, Girl",
 	},
 	"1F468-200D-1F4BB": {
@@ -15872,5 +16020,3328 @@ var Emojis = map[string]Emoji{
 		Key:        "AE-FE0F",
 		Value:      "®️",
 		Descriptor: "Registered",
+	},
+
+	// --- new ---
+
+	"1D11E": {
+		Key:        "1D11E",
+		Value:      "𝄞",
+		Descriptor: "",
+	},
+	"1D54F": {
+		Key:        "1D54F",
+		Value:      "𝕏",
+		Descriptor: "",
+	},
+	"1F000": {
+		Key:        "1F000",
+		Value:      "🀀",
+		Descriptor: "",
+	},
+	"1F001": {
+		Key:        "1F001",
+		Value:      "🀁",
+		Descriptor: "",
+	},
+	"1F002": {
+		Key:        "1F002",
+		Value:      "🀂",
+		Descriptor: "",
+	},
+	"1F003": {
+		Key:        "1F003",
+		Value:      "🀃",
+		Descriptor: "",
+	},
+	"1F004-FE0E": {
+		Key:        "1F004-FE0E",
+		Value:      "🀄︎",
+		Descriptor: "",
+	},
+	"1F005": {
+		Key:        "1F005",
+		Value:      "🀅",
+		Descriptor: "",
+	},
+	"1F006": {
+		Key:        "1F006",
+		Value:      "🀆",
+		Descriptor: "",
+	},
+	"1F007": {
+		Key:        "1F007",
+		Value:      "🀇",
+		Descriptor: "",
+	},
+	"1F008": {
+		Key:        "1F008",
+		Value:      "🀈",
+		Descriptor: "",
+	},
+	"1F009": {
+		Key:        "1F009",
+		Value:      "🀉",
+		Descriptor: "",
+	},
+	"1F00A": {
+		Key:        "1F00A",
+		Value:      "🀊",
+		Descriptor: "",
+	},
+	"1F00B": {
+		Key:        "1F00B",
+		Value:      "🀋",
+		Descriptor: "",
+	},
+	"1F00C": {
+		Key:        "1F00C",
+		Value:      "🀌",
+		Descriptor: "",
+	},
+	"1F00D": {
+		Key:        "1F00D",
+		Value:      "🀍",
+		Descriptor: "",
+	},
+	"1F00E": {
+		Key:        "1F00E",
+		Value:      "🀎",
+		Descriptor: "",
+	},
+	"1F00F": {
+		Key:        "1F00F",
+		Value:      "🀏",
+		Descriptor: "",
+	},
+	"1F010": {
+		Key:        "1F010",
+		Value:      "🀐",
+		Descriptor: "",
+	},
+	"1F011": {
+		Key:        "1F011",
+		Value:      "🀑",
+		Descriptor: "",
+	},
+	"1F012": {
+		Key:        "1F012",
+		Value:      "🀒",
+		Descriptor: "",
+	},
+	"1F013": {
+		Key:        "1F013",
+		Value:      "🀓",
+		Descriptor: "",
+	},
+	"1F014": {
+		Key:        "1F014",
+		Value:      "🀔",
+		Descriptor: "",
+	},
+	"1F015": {
+		Key:        "1F015",
+		Value:      "🀕",
+		Descriptor: "",
+	},
+	"1F016": {
+		Key:        "1F016",
+		Value:      "🀖",
+		Descriptor: "",
+	},
+	"1F017": {
+		Key:        "1F017",
+		Value:      "🀗",
+		Descriptor: "",
+	},
+	"1F018": {
+		Key:        "1F018",
+		Value:      "🀘",
+		Descriptor: "",
+	},
+	"1F019": {
+		Key:        "1F019",
+		Value:      "🀙",
+		Descriptor: "",
+	},
+	"1F01A": {
+		Key:        "1F01A",
+		Value:      "🀚",
+		Descriptor: "",
+	},
+	"1F01B": {
+		Key:        "1F01B",
+		Value:      "🀛",
+		Descriptor: "",
+	},
+	"1F01C": {
+		Key:        "1F01C",
+		Value:      "🀜",
+		Descriptor: "",
+	},
+	"1F01D": {
+		Key:        "1F01D",
+		Value:      "🀝",
+		Descriptor: "",
+	},
+	"1F01E": {
+		Key:        "1F01E",
+		Value:      "🀞",
+		Descriptor: "",
+	},
+	"1F01F": {
+		Key:        "1F01F",
+		Value:      "🀟",
+		Descriptor: "",
+	},
+	"1F020": {
+		Key:        "1F020",
+		Value:      "🀠",
+		Descriptor: "",
+	},
+	"1F021": {
+		Key:        "1F021",
+		Value:      "🀡",
+		Descriptor: "",
+	},
+	"1F022": {
+		Key:        "1F022",
+		Value:      "🀢",
+		Descriptor: "",
+	},
+	"1F023": {
+		Key:        "1F023",
+		Value:      "🀣",
+		Descriptor: "",
+	},
+	"1F024": {
+		Key:        "1F024",
+		Value:      "🀤",
+		Descriptor: "",
+	},
+	"1F025": {
+		Key:        "1F025",
+		Value:      "🀥",
+		Descriptor: "",
+	},
+	"1F026": {
+		Key:        "1F026",
+		Value:      "🀦",
+		Descriptor: "",
+	},
+	"1F027": {
+		Key:        "1F027",
+		Value:      "🀧",
+		Descriptor: "",
+	},
+	"1F028": {
+		Key:        "1F028",
+		Value:      "🀨",
+		Descriptor: "",
+	},
+	"1F029": {
+		Key:        "1F029",
+		Value:      "🀩",
+		Descriptor: "",
+	},
+	"1F02A": {
+		Key:        "1F02A",
+		Value:      "🀪",
+		Descriptor: "",
+	},
+	"1F02B": {
+		Key:        "1F02B",
+		Value:      "🀫",
+		Descriptor: "",
+	},
+	"1F10D": {
+		Key:        "1F10D",
+		Value:      "🄍",
+		Descriptor: "",
+	},
+	"1F10F": {
+		Key:        "1F10F",
+		Value:      "🄏",
+		Descriptor: "",
+	},
+	"1F12F": {
+		Key:        "1F12F",
+		Value:      "🄯",
+		Descriptor: "",
+	},
+	"1F21A-FE0F": {
+		Key:        "1F21A-FE0F",
+		Value:      "🈚️",
+		Descriptor: "",
+	},
+	"1F22F-FE0F": {
+		Key:        "1F22F-FE0F",
+		Value:      "🈯️",
+		Descriptor: "",
+	},
+	"1F321": {
+		Key:        "1F321",
+		Value:      "🌡",
+		Descriptor: "",
+	},
+	"1F324": {
+		Key:        "1F324",
+		Value:      "🌤",
+		Descriptor: "",
+	},
+	"1F325": {
+		Key:        "1F325",
+		Value:      "🌥",
+		Descriptor: "",
+	},
+	"1F326": {
+		Key:        "1F326",
+		Value:      "🌦",
+		Descriptor: "",
+	},
+	"1F327": {
+		Key:        "1F327",
+		Value:      "🌧",
+		Descriptor: "",
+	},
+	"1F328": {
+		Key:        "1F328",
+		Value:      "🌨",
+		Descriptor: "",
+	},
+	"1F329": {
+		Key:        "1F329",
+		Value:      "🌩",
+		Descriptor: "",
+	},
+	"1F32A": {
+		Key:        "1F32A",
+		Value:      "🌪",
+		Descriptor: "",
+	},
+	"1F32B": {
+		Key:        "1F32B",
+		Value:      "🌫",
+		Descriptor: "",
+	},
+	"1F32C": {
+		Key:        "1F32C",
+		Value:      "🌬",
+		Descriptor: "",
+	},
+	"1F336": {
+		Key:        "1F336",
+		Value:      "🌶",
+		Descriptor: "",
+	},
+	"1F344-200D-1F7EB": {
+		Key:        "1F344-200D-1F7EB",
+		Value:      "🍄‍🟫",
+		Descriptor: "",
+	},
+	"1F34B-200D-1F7E9": {
+		Key:        "1F34B-200D-1F7E9",
+		Value:      "🍋‍🟩",
+		Descriptor: "",
+	},
+	"1F37D": {
+		Key:        "1F37D",
+		Value:      "🍽",
+		Descriptor: "",
+	},
+	"1F381-FE0F": {
+		Key:        "1F381-FE0F",
+		Value:      "🎁️",
+		Descriptor: "",
+	},
+	"1F396": {
+		Key:        "1F396",
+		Value:      "🎖",
+		Descriptor: "",
+	},
+	"1F397": {
+		Key:        "1F397",
+		Value:      "🎗",
+		Descriptor: "",
+	},
+	"1F399": {
+		Key:        "1F399",
+		Value:      "🎙",
+		Descriptor: "",
+	},
+	"1F39A": {
+		Key:        "1F39A",
+		Value:      "🎚",
+		Descriptor: "",
+	},
+	"1F39B": {
+		Key:        "1F39B",
+		Value:      "🎛",
+		Descriptor: "",
+	},
+	"1F39E": {
+		Key:        "1F39E",
+		Value:      "🎞",
+		Descriptor: "",
+	},
+	"1F39F": {
+		Key:        "1F39F",
+		Value:      "🎟",
+		Descriptor: "",
+	},
+	"1F3C2-1F3FB": {
+		Key:        "1F3C2-1F3FB",
+		Value:      " 🏂🏻",
+		Descriptor: "",
+	},
+	"1F3C3-1F3FB-200D-2640-FE0F-200D-27A1-FE0F": {
+		Key:        "1F3C3-1F3FB-200D-2640-FE0F-200D-27A1-FE0F",
+		Value:      " 🏃🏻‍♀️‍➡️",
+		Descriptor: "",
+	},
+	"1F3C3-1F3FB-200D-2642-FE0F-200D-27A1-FE0F": {
+		Key:        "1F3C3-1F3FB-200D-2642-FE0F-200D-27A1-FE0F",
+		Value:      " 🏃🏻‍♂️‍➡️",
+		Descriptor: "",
+	},
+	"1F3C3-200D-2640-FE0F-200D-27A1-FE0F": {
+		Key:        "1F3C3-200D-2640-FE0F-200D-27A1-FE0F",
+		Value:      "🏃‍♀️‍➡️",
+		Descriptor: "",
+	},
+	"1F3C3-200D-2642-FE0F-200D-27A1-FE0F": {
+		Key:        "1F3C3-200D-2642-FE0F-200D-27A1-FE0F",
+		Value:      "🏃‍♂️‍➡️",
+		Descriptor: "",
+	},
+	"1F3C3-200D-27A1-FE0F": {
+		Key:        "1F3C3-200D-27A1-FE0F",
+		Value:      "🏃‍➡️",
+		Descriptor: "",
+	},
+	"1F3CB-200D-2640-FE0F": {
+		Key:        "1F3CB-200D-2640-FE0F",
+		Value:      "🏋‍♀️ ",
+		Descriptor: "",
+	},
+	"1F3CB-200D-2642-FE0F": {
+		Key:        "1F3CB-200D-2642-FE0F",
+		Value:      "🏋‍♂️ ",
+		Descriptor: "",
+	},
+	"1F3CC-200D-2640-FE0F": {
+		Key:        "1F3CC-200D-2640-FE0F",
+		Value:      "🏌‍♀️ ",
+		Descriptor: "",
+	},
+	"1F3CC-200D-2642-FE0F": {
+		Key:        "1F3CC-200D-2642-FE0F",
+		Value:      "🏌‍♂️ ",
+		Descriptor: "",
+	},
+	"1F3CD": {
+		Key:        "1F3CD",
+		Value:      "🏍",
+		Descriptor: "",
+	},
+	"1F3CE": {
+		Key:        "1F3CE",
+		Value:      "🏎",
+		Descriptor: "",
+	},
+	"1F3D4": {
+		Key:        "1F3D4",
+		Value:      "🏔",
+		Descriptor: "",
+	},
+	"1F3D5": {
+		Key:        "1F3D5",
+		Value:      "🏕",
+		Descriptor: "",
+	},
+	"1F3D6": {
+		Key:        "1F3D6",
+		Value:      "🏖",
+		Descriptor: "",
+	},
+	"1F3D7": {
+		Key:        "1F3D7",
+		Value:      "🏗",
+		Descriptor: "",
+	},
+	"1F3D8": {
+		Key:        "1F3D8",
+		Value:      "🏘",
+		Descriptor: "",
+	},
+	"1F3D9": {
+		Key:        "1F3D9",
+		Value:      "🏙",
+		Descriptor: "",
+	},
+	"1F3DA": {
+		Key:        "1F3DA",
+		Value:      "🏚",
+		Descriptor: "",
+	},
+	"1F3DB": {
+		Key:        "1F3DB",
+		Value:      "🏛",
+		Descriptor: "",
+	},
+	"1F3DC": {
+		Key:        "1F3DC",
+		Value:      "🏜",
+		Descriptor: "",
+	},
+	"1F3DD": {
+		Key:        "1F3DD",
+		Value:      "🏝",
+		Descriptor: "",
+	},
+	"1F3DE": {
+		Key:        "1F3DE",
+		Value:      "🏞",
+		Descriptor: "",
+	},
+	"1F3DF": {
+		Key:        "1F3DF",
+		Value:      "🏟",
+		Descriptor: "",
+	},
+	"1F3F3-FE0F-200D-26A7-FE0F": {
+		Key:        "1F3F3-FE0F-200D-26A7-FE0F",
+		Value:      "🏳️‍⚧️",
+		Descriptor: "",
+	},
+	"1F3F5": {
+		Key:        "1F3F5",
+		Value:      "🏵",
+		Descriptor: "",
+	},
+	"1F3F7": {
+		Key:        "1F3F7",
+		Value:      "🏷",
+		Descriptor: "",
+	},
+	"1F408-200D-2B1B": {
+		Key:        "1F408-200D-2B1B",
+		Value:      "🐈‍⬛",
+		Descriptor: "",
+	},
+	"1F426-200D-1F525": {
+		Key:        "1F426-200D-1F525",
+		Value:      "🐦‍🔥",
+		Descriptor: "",
+	},
+	"1F426-200D-2B1B": {
+		Key:        "1F426-200D-2B1B",
+		Value:      "🐦‍⬛",
+		Descriptor: "",
+	},
+	"1F43B-200D-2744-FE0F": {
+		Key:        "1F43B-200D-2744-FE0F",
+		Value:      "🐻‍❄️",
+		Descriptor: "",
+	},
+	"1F441-200D-1F5E8": {
+		Key:        "1F441-200D-1F5E8",
+		Value:      "👁‍🗨",
+		Descriptor: "",
+	},
+	"1F468-1F3FB-200D-1F37C": {
+		Key:        "1F468-1F3FB-200D-1F37C",
+		Value:      " 👨🏻‍🍼",
+		Descriptor: "",
+	},
+	"1F468-1F3FB-200D-1F9AF-200D-27A1-FE0F": {
+		Key:        "1F468-1F3FB-200D-1F9AF-200D-27A1-FE0F",
+		Value:      " 👨🏻‍🦯‍➡️",
+		Descriptor: "",
+	},
+	"1F468-1F3FB-200D-1F9BC-200D-27A1-FE0F": {
+		Key:        "1F468-1F3FB-200D-1F9BC-200D-27A1-FE0F",
+		Value:      " 👨🏻‍🦼‍➡️",
+		Descriptor: "",
+	},
+	"1F468-1F3FB-200D-1F9BD-200D-27A1-FE0F": {
+		Key:        "1F468-1F3FB-200D-1F9BD-200D-27A1-FE0F",
+		Value:      " 👨🏻‍🦽‍➡️",
+		Descriptor: "",
+	},
+	"1F468-200D-1F37C": {
+		Key:        "1F468-200D-1F37C",
+		Value:      "👨‍🍼",
+		Descriptor: "",
+	},
+	"1F468-200D-1F9AF-200D-27A1-FE0F": {
+		Key:        "1F468-200D-1F9AF-200D-27A1-FE0F",
+		Value:      "👨‍🦯‍➡️",
+		Descriptor: "",
+	},
+	"1F468-200D-1F9BC-200D-27A1-FE0F": {
+		Key:        "1F468-200D-1F9BC-200D-27A1-FE0F",
+		Value:      "👨‍🦼‍➡️",
+		Descriptor: "",
+	},
+	"1F468-200D-1F9BD-200D-27A1-FE0F": {
+		Key:        "1F468-200D-1F9BD-200D-27A1-FE0F",
+		Value:      "👨‍🦽‍➡️",
+		Descriptor: "",
+	},
+	"1F469 1F3FF": {
+		Key:        "1F469 1F3FF",
+		Value:      "👩🏿",
+		Descriptor: "",
+	},
+	"1F469-1F3FB-200D-1F37C": {
+		Key:        "1F469-1F3FB-200D-1F37C",
+		Value:      " 👩🏻‍🍼",
+		Descriptor: "",
+	},
+	"1F469-1F3FB-200D-1F9AF-200D-27A1-FE0F": {
+		Key:        "1F469-1F3FB-200D-1F9AF-200D-27A1-FE0F",
+		Value:      " 👩🏻‍🦯‍➡️",
+		Descriptor: "",
+	},
+	"1F469-1F3FB-200D-1F9BC-200D-27A1-FE0F": {
+		Key:        "1F469-1F3FB-200D-1F9BC-200D-27A1-FE0F",
+		Value:      " 👩🏻‍🦼‍➡️",
+		Descriptor: "",
+	},
+	"1F469-1F3FB-200D-1F9BD-200D-27A1-FE0F": {
+		Key:        "1F469-1F3FB-200D-1F9BD-200D-27A1-FE0F",
+		Value:      " 👩🏻‍🦽‍➡️",
+		Descriptor: "",
+	},
+	"1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB": {
+		Key:        "1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FB",
+		Value:      " 👩🏻‍❤️‍👨🏻",
+		Descriptor: "",
+	},
+	"1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB": {
+		Key:        "1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB",
+		Value:      " 👩🏻‍❤️‍💋‍👨🏻",
+		Descriptor: "",
+	},
+	"1F469-200D-1F37C": {
+		Key:        "1F469-200D-1F37C",
+		Value:      "👩‍🍼",
+		Descriptor: "",
+	},
+	"1F469-200D-1F9AF-200D-27A1-FE0F": {
+		Key:        "1F469-200D-1F9AF-200D-27A1-FE0F",
+		Value:      "👩‍🦯‍➡️",
+		Descriptor: "",
+	},
+	"1F469-200D-1F9BC-200D-27A1-FE0F": {
+		Key:        "1F469-200D-1F9BC-200D-27A1-FE0F",
+		Value:      "👩‍🦼‍➡️",
+		Descriptor: "",
+	},
+	"1F469-200D-1F9BD-200D-27A1-FE0F": {
+		Key:        "1F469-200D-1F9BD-200D-27A1-FE0F",
+		Value:      "👩‍🦽‍➡️",
+		Descriptor: "",
+	},
+	"1F470-1F3FB-200D-2640-FE0F": {
+		Key:        "1F470-1F3FB-200D-2640-FE0F",
+		Value:      " 👰🏻‍♀️",
+		Descriptor: "",
+	},
+	"1F470-200D-2640-FE0F": {
+		Key:        "1F470-200D-2640-FE0F",
+		Value:      "👰‍♀️",
+		Descriptor: "",
+	},
+	"1F470-200D-2642-FE0F": {
+		Key:        "1F470-200D-2642-FE0F",
+		Value:      "👰‍♂️",
+		Descriptor: "",
+	},
+	"1F4FD": {
+		Key:        "1F4FD",
+		Value:      "📽",
+		Descriptor: "",
+	},
+	"1F549": {
+		Key:        "1F549",
+		Value:      "🕉",
+		Descriptor: "",
+	},
+	"1F56F": {
+		Key:        "1F56F",
+		Value:      "🕯",
+		Descriptor: "",
+	},
+	"1F575": {
+		Key:        "1F575",
+		Value:      "🕵 ",
+		Descriptor: "",
+	},
+	"1F575-200D-2640-FE0F": {
+		Key:        "1F575-200D-2640-FE0F",
+		Value:      "🕵‍♀️ ",
+		Descriptor: "",
+	},
+	"1F575-200D-2642-FE0F": {
+		Key:        "1F575-200D-2642-FE0F",
+		Value:      "🕵‍♂️ ",
+		Descriptor: "",
+	},
+	"1F579": {
+		Key:        "1F579",
+		Value:      "🕹",
+		Descriptor: "",
+	},
+	"1F587": {
+		Key:        "1F587",
+		Value:      "🖇",
+		Descriptor: "",
+	},
+	"1F58A": {
+		Key:        "1F58A",
+		Value:      "🖊",
+		Descriptor: "",
+	},
+	"1F58B": {
+		Key:        "1F58B",
+		Value:      "🖋",
+		Descriptor: "",
+	},
+	"1F58C": {
+		Key:        "1F58C",
+		Value:      "🖌",
+		Descriptor: "",
+	},
+	"1F58D": {
+		Key:        "1F58D",
+		Value:      "🖍",
+		Descriptor: "",
+	},
+	"1F5A5": {
+		Key:        "1F5A5",
+		Value:      "🖥",
+		Descriptor: "",
+	},
+	"1F5A8": {
+		Key:        "1F5A8",
+		Value:      "🖨",
+		Descriptor: "",
+	},
+	"1F5B1": {
+		Key:        "1F5B1",
+		Value:      "🖱",
+		Descriptor: "",
+	},
+	"1F5B2": {
+		Key:        "1F5B2",
+		Value:      "🖲",
+		Descriptor: "",
+	},
+	"1F5BC": {
+		Key:        "1F5BC",
+		Value:      "🖼",
+		Descriptor: "",
+	},
+	"1F5C2": {
+		Key:        "1F5C2",
+		Value:      "🗂",
+		Descriptor: "",
+	},
+	"1F5C3": {
+		Key:        "1F5C3",
+		Value:      "🗃",
+		Descriptor: "",
+	},
+	"1F5C4": {
+		Key:        "1F5C4",
+		Value:      "🗄",
+		Descriptor: "",
+	},
+	"1F5D1": {
+		Key:        "1F5D1",
+		Value:      "🗑",
+		Descriptor: "",
+	},
+	"1F5D2": {
+		Key:        "1F5D2",
+		Value:      "🗒",
+		Descriptor: "",
+	},
+	"1F5D3": {
+		Key:        "1F5D3",
+		Value:      "🗓",
+		Descriptor: "",
+	},
+	"1F5DC": {
+		Key:        "1F5DC",
+		Value:      "🗜",
+		Descriptor: "",
+	},
+	"1F5DD": {
+		Key:        "1F5DD",
+		Value:      "🗝",
+		Descriptor: "",
+	},
+	"1F5DE": {
+		Key:        "1F5DE",
+		Value:      "🗞",
+		Descriptor: "",
+	},
+	"1F5E1": {
+		Key:        "1F5E1",
+		Value:      "🗡",
+		Descriptor: "",
+	},
+	"1F5EF": {
+		Key:        "1F5EF",
+		Value:      "🗯",
+		Descriptor: "",
+	},
+	"1F5F3": {
+		Key:        "1F5F3",
+		Value:      "🗳",
+		Descriptor: "",
+	},
+	"1F5FA": {
+		Key:        "1F5FA",
+		Value:      "🗺",
+		Descriptor: "",
+	},
+	"1F607-FE0F": {
+		Key:        "1F607-FE0F",
+		Value:      "😇️",
+		Descriptor: "",
+	},
+	"1F62E-200D-1F4A8": {
+		Key:        "1F62E-200D-1F4A8",
+		Value:      "😮‍💨",
+		Descriptor: "",
+	},
+	"1F635-200D-1F4AB": {
+		Key:        "1F635-200D-1F4AB",
+		Value:      "😵‍💫",
+		Descriptor: "",
+	},
+	"1F636-200D-1F32B-FE0F": {
+		Key:        "1F636-200D-1F32B-FE0F",
+		Value:      "😶‍🌫️",
+		Descriptor: "",
+	},
+	"1F642-200D-2194-FE0F": {
+		Key:        "1F642-200D-2194-FE0F",
+		Value:      "🙂‍↔️",
+		Descriptor: "",
+	},
+	"1F642-200D-2195-FE0F": {
+		Key:        "1F642-200D-2195-FE0F",
+		Value:      "🙂‍↕️",
+		Descriptor: "",
+	},
+	"1F642-FE0F": {
+		Key:        "1F642-FE0F",
+		Value:      "🙂️",
+		Descriptor: "",
+	},
+	"1F6B6-1F3FB-200D-2640-FE0F-200D-27A1-FE0F": {
+		Key:        "1F6B6-1F3FB-200D-2640-FE0F-200D-27A1-FE0F",
+		Value:      " 🚶🏻‍♀️‍➡️",
+		Descriptor: "",
+	},
+	"1F6B6-1F3FB-200D-2642-FE0F-200D-27A1-FE0F": {
+		Key:        "1F6B6-1F3FB-200D-2642-FE0F-200D-27A1-FE0F",
+		Value:      " 🚶🏻‍♂️‍➡️",
+		Descriptor: "",
+	},
+	"1F6B6-200D-2640-FE0F-200D-27A1-FE0F": {
+		Key:        "1F6B6-200D-2640-FE0F-200D-27A1-FE0F",
+		Value:      "🚶‍♀️‍➡️",
+		Descriptor: "",
+	},
+	"1F6B6-200D-2642-FE0F-200D-27A1-FE0F": {
+		Key:        "1F6B6-200D-2642-FE0F-200D-27A1-FE0F",
+		Value:      "🚶‍♂️‍➡️",
+		Descriptor: "",
+	},
+	"1F6B6-200D-27A1-FE0F": {
+		Key:        "1F6B6-200D-27A1-FE0F",
+		Value:      "🚶‍➡️",
+		Descriptor: "",
+	},
+	"1F6CB": {
+		Key:        "1F6CB",
+		Value:      "🛋",
+		Descriptor: "",
+	},
+	"1F6CD": {
+		Key:        "1F6CD",
+		Value:      "🛍",
+		Descriptor: "",
+	},
+	"1F6CE": {
+		Key:        "1F6CE",
+		Value:      "🛎",
+		Descriptor: "",
+	},
+	"1F6CF": {
+		Key:        "1F6CF",
+		Value:      "🛏",
+		Descriptor: "",
+	},
+	"1F6D6": {
+		Key:        "1F6D6",
+		Value:      "🛖",
+		Descriptor: "",
+	},
+	"1F6D7": {
+		Key:        "1F6D7",
+		Value:      "🛗",
+		Descriptor: "",
+	},
+	"1F6DC": {
+		Key:        "1F6DC",
+		Value:      "🛜",
+		Descriptor: "",
+	},
+	"1F6DD": {
+		Key:        "1F6DD",
+		Value:      "🛝",
+		Descriptor: "",
+	},
+	"1F6DE": {
+		Key:        "1F6DE",
+		Value:      "🛞",
+		Descriptor: "",
+	},
+	"1F6DF": {
+		Key:        "1F6DF",
+		Value:      "🛟",
+		Descriptor: "",
+	},
+	"1F6E0": {
+		Key:        "1F6E0",
+		Value:      "🛠",
+		Descriptor: "",
+	},
+	"1F6E1": {
+		Key:        "1F6E1",
+		Value:      "🛡",
+		Descriptor: "",
+	},
+	"1F6E2": {
+		Key:        "1F6E2",
+		Value:      "🛢",
+		Descriptor: "",
+	},
+	"1F6E3": {
+		Key:        "1F6E3",
+		Value:      "🛣",
+		Descriptor: "",
+	},
+	"1F6E4": {
+		Key:        "1F6E4",
+		Value:      "🛤",
+		Descriptor: "",
+	},
+	"1F6E5": {
+		Key:        "1F6E5",
+		Value:      "🛥",
+		Descriptor: "",
+	},
+	"1F6E9": {
+		Key:        "1F6E9",
+		Value:      "🛩",
+		Descriptor: "",
+	},
+	"1F6F0": {
+		Key:        "1F6F0",
+		Value:      "🛰",
+		Descriptor: "",
+	},
+	"1F6F3": {
+		Key:        "1F6F3",
+		Value:      "🛳",
+		Descriptor: "",
+	},
+	"1F6FB": {
+		Key:        "1F6FB",
+		Value:      "🛻",
+		Descriptor: "",
+	},
+	"1F6FC": {
+		Key:        "1F6FC",
+		Value:      "🛼",
+		Descriptor: "",
+	},
+	"1F7F0": {
+		Key:        "1F7F0",
+		Value:      "🟰",
+		Descriptor: "",
+	},
+	"1F90C": {
+		Key:        "1F90C",
+		Value:      "🤌",
+		Descriptor: "",
+	},
+	"1F935-1F3FB-200D-2640-FE0F": {
+		Key:        "1F935-1F3FB-200D-2640-FE0F",
+		Value:      " 🤵🏻‍♀️",
+		Descriptor: "",
+	},
+	"1F935-1F3FB-200D-2642-FE0F": {
+		Key:        "1F935-1F3FB-200D-2642-FE0F",
+		Value:      " 🤵🏻‍♂️",
+		Descriptor: "",
+	},
+	"1F935-200D-2640-FE0F": {
+		Key:        "1F935-200D-2640-FE0F",
+		Value:      "🤵‍♀️",
+		Descriptor: "",
+	},
+	"1F935-200D-2642-FE0F": {
+		Key:        "1F935-200D-2642-FE0F",
+		Value:      "🤵‍♂️",
+		Descriptor: "",
+	},
+	"1F977-1F3FB": {
+		Key:        "1F977-1F3FB",
+		Value:      " 🥷🏻",
+		Descriptor: "",
+	},
+	"1F979": {
+		Key:        "1F979",
+		Value:      "🥹",
+		Descriptor: "",
+	},
+	"1F9CB": {
+		Key:        "1F9CB",
+		Value:      "🧋",
+		Descriptor: "",
+	},
+	"1F9CE-1F3FB-200D-2640-FE0F-200D-27A1-FE0F": {
+		Key:        "1F9CE-1F3FB-200D-2640-FE0F-200D-27A1-FE0F",
+		Value:      " 🧎🏻‍♀️‍➡️",
+		Descriptor: "",
+	},
+	"1F9CE-1F3FB-200D-2642-FE0F-200D-27A1-FE0F": {
+		Key:        "1F9CE-1F3FB-200D-2642-FE0F-200D-27A1-FE0F",
+		Value:      " 🧎🏻‍♂️‍➡️",
+		Descriptor: "",
+	},
+	"1F9CE-200D-2640-FE0F-200D-27A1-FE0F": {
+		Key:        "1F9CE-200D-2640-FE0F-200D-27A1-FE0F",
+		Value:      "🧎‍♀️‍➡️",
+		Descriptor: "",
+	},
+	"1F9CE-200D-2642-FE0F-200D-27A1-FE0F": {
+		Key:        "1F9CE-200D-2642-FE0F-200D-27A1-FE0F",
+		Value:      "🧎‍♂️‍➡️",
+		Descriptor: "",
+	},
+	"1F9CE-200D-27A1-FE0F": {
+		Key:        "1F9CE-200D-27A1-FE0F",
+		Value:      "🧎‍➡️",
+		Descriptor: "",
+	},
+	"1F9D1-1F3FB-200D-1F384": {
+		Key:        "1F9D1-1F3FB-200D-1F384",
+		Value:      " 🧑🏻‍🎄",
+		Descriptor: "",
+	},
+	"1F9D1-200D-1F37C": {
+		Key:        "1F9D1-200D-1F37C",
+		Value:      "🧑‍🍼",
+		Descriptor: "",
+	},
+	"1F9D1-200D-1F384": {
+		Key:        "1F9D1-200D-1F384",
+		Value:      "🧑‍🎄",
+		Descriptor: "",
+	},
+	"1F9D1-200D-1F9AF-200D-27A1-FE0F": {
+		Key:        "1F9D1-200D-1F9AF-200D-27A1-FE0F",
+		Value:      "🧑‍🦯‍➡️",
+		Descriptor: "",
+	},
+	"1F9D1-200D-1F9BC-200D-27A1-FE0F": {
+		Key:        "1F9D1-200D-1F9BC-200D-27A1-FE0F",
+		Value:      "🧑‍🦼‍➡️",
+		Descriptor: "",
+	},
+	"1F9D1-200D-1F9BD-200D-27A1-FE0F": {
+		Key:        "1F9D1-200D-1F9BD-200D-27A1-FE0F",
+		Value:      "🧑‍🦽‍➡️",
+		Descriptor: "",
+	},
+	"1F9D1-200D-1F9D1-200D-1F9D2": {
+		Key:        "1F9D1-200D-1F9D1-200D-1F9D2",
+		Value:      "🧑‍🧑‍🧒",
+		Descriptor: "",
+	},
+	"1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2": {
+		Key:        "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
+		Value:      "🧑‍🧑‍🧒‍🧒",
+		Descriptor: "",
+	},
+	"1F9D1-200D-1F9D2": {
+		Key:        "1F9D1-200D-1F9D2",
+		Value:      "🧑‍🧒",
+		Descriptor: "",
+	},
+	"1F9D1-200D-1F9D2-200D-1F9D2": {
+		Key:        "1F9D1-200D-1F9D2-200D-1F9D2",
+		Value:      "🧑‍🧒‍🧒",
+		Descriptor: "",
+	},
+	"1F9D4-1F3FB-200D-2640-FE0F": {
+		Key:        "1F9D4-1F3FB-200D-2640-FE0F",
+		Value:      " 🧔🏻‍♀️",
+		Descriptor: "",
+	},
+	"1F9D4-1F3FB-200D-2642-FE0F": {
+		Key:        "1F9D4-1F3FB-200D-2642-FE0F",
+		Value:      " 🧔🏻‍♂️",
+		Descriptor: "",
+	},
+	"1F9D4-200D-2640-FE0F": {
+		Key:        "1F9D4-200D-2640-FE0F",
+		Value:      "🧔‍♀️",
+		Descriptor: "",
+	},
+	"1F9D4-200D-2642-FE0F": {
+		Key:        "1F9D4-200D-2642-FE0F",
+		Value:      "🧔‍♂️",
+		Descriptor: "",
+	},
+	"1FA60": {
+		Key:        "1FA60",
+		Value:      "🩠",
+		Descriptor: "",
+	},
+	"1FA61": {
+		Key:        "1FA61",
+		Value:      "🩡",
+		Descriptor: "",
+	},
+	"1FA62": {
+		Key:        "1FA62",
+		Value:      "🩢",
+		Descriptor: "",
+	},
+	"1FA63": {
+		Key:        "1FA63",
+		Value:      "🩣",
+		Descriptor: "",
+	},
+	"1FA64": {
+		Key:        "1FA64",
+		Value:      "🩤",
+		Descriptor: "",
+	},
+	"1FA65": {
+		Key:        "1FA65",
+		Value:      "🩥",
+		Descriptor: "",
+	},
+	"1FA66": {
+		Key:        "1FA66",
+		Value:      "🩦",
+		Descriptor: "",
+	},
+	"1FA67": {
+		Key:        "1FA67",
+		Value:      "🩧",
+		Descriptor: "",
+	},
+	"1FA68": {
+		Key:        "1FA68",
+		Value:      "🩨",
+		Descriptor: "",
+	},
+	"1FA69": {
+		Key:        "1FA69",
+		Value:      "🩩",
+		Descriptor: "",
+	},
+	"1FA6A": {
+		Key:        "1FA6A",
+		Value:      "🩪",
+		Descriptor: "",
+	},
+	"1FA6B": {
+		Key:        "1FA6B",
+		Value:      "🩫",
+		Descriptor: "",
+	},
+	"1FA6C": {
+		Key:        "1FA6C",
+		Value:      "🩬",
+		Descriptor: "",
+	},
+	"1FA6D": {
+		Key:        "1FA6D",
+		Value:      "🩭",
+		Descriptor: "",
+	},
+	"1FA74": {
+		Key:        "1FA74",
+		Value:      "🩴",
+		Descriptor: "",
+	},
+	"1FA75": {
+		Key:        "1FA75",
+		Value:      "🩵",
+		Descriptor: "",
+	},
+	"1FA76": {
+		Key:        "1FA76",
+		Value:      "🩶",
+		Descriptor: "",
+	},
+	"1FA77": {
+		Key:        "1FA77",
+		Value:      "🩷",
+		Descriptor: "",
+	},
+	"1FA7B": {
+		Key:        "1FA7B",
+		Value:      "🩻",
+		Descriptor: "",
+	},
+	"1FA7C": {
+		Key:        "1FA7C",
+		Value:      "🩼",
+		Descriptor: "",
+	},
+	"1FA83": {
+		Key:        "1FA83",
+		Value:      "🪃",
+		Descriptor: "",
+	},
+	"1FA84": {
+		Key:        "1FA84",
+		Value:      "🪄",
+		Descriptor: "",
+	},
+	"1FA85": {
+		Key:        "1FA85",
+		Value:      "🪅",
+		Descriptor: "",
+	},
+	"1FA86": {
+		Key:        "1FA86",
+		Value:      "🪆",
+		Descriptor: "",
+	},
+	"1FA87": {
+		Key:        "1FA87",
+		Value:      "🪇",
+		Descriptor: "",
+	},
+	"1FA88": {
+		Key:        "1FA88",
+		Value:      "🪈",
+		Descriptor: "",
+	},
+	"1FA96": {
+		Key:        "1FA96",
+		Value:      "🪖",
+		Descriptor: "",
+	},
+	"1FA97": {
+		Key:        "1FA97",
+		Value:      "🪗",
+		Descriptor: "",
+	},
+	"1FA98": {
+		Key:        "1FA98",
+		Value:      "🪘",
+		Descriptor: "",
+	},
+	"1FA99": {
+		Key:        "1FA99",
+		Value:      "🪙",
+		Descriptor: "",
+	},
+	"1FA9A": {
+		Key:        "1FA9A",
+		Value:      "🪚",
+		Descriptor: "",
+	},
+	"1FA9B": {
+		Key:        "1FA9B",
+		Value:      "🪛",
+		Descriptor: "",
+	},
+	"1FA9C": {
+		Key:        "1FA9C",
+		Value:      "🪜",
+		Descriptor: "",
+	},
+	"1FA9D": {
+		Key:        "1FA9D",
+		Value:      "🪝",
+		Descriptor: "",
+	},
+	"1FA9E": {
+		Key:        "1FA9E",
+		Value:      "🪞",
+		Descriptor: "",
+	},
+	"1FA9F": {
+		Key:        "1FA9F",
+		Value:      "🪟",
+		Descriptor: "",
+	},
+	"1FAA0": {
+		Key:        "1FAA0",
+		Value:      "🪠",
+		Descriptor: "",
+	},
+	"1FAA1": {
+		Key:        "1FAA1",
+		Value:      "🪡",
+		Descriptor: "",
+	},
+	"1FAA2": {
+		Key:        "1FAA2",
+		Value:      "🪢",
+		Descriptor: "",
+	},
+	"1FAA3": {
+		Key:        "1FAA3",
+		Value:      "🪣",
+		Descriptor: "",
+	},
+	"1FAA4": {
+		Key:        "1FAA4",
+		Value:      "🪤",
+		Descriptor: "",
+	},
+	"1FAA5": {
+		Key:        "1FAA5",
+		Value:      "🪥",
+		Descriptor: "",
+	},
+	"1FAA6": {
+		Key:        "1FAA6",
+		Value:      "🪦",
+		Descriptor: "",
+	},
+	"1FAA7": {
+		Key:        "1FAA7",
+		Value:      "🪧",
+		Descriptor: "",
+	},
+	"1FAA8": {
+		Key:        "1FAA8",
+		Value:      "🪨",
+		Descriptor: "",
+	},
+	"1FAA9": {
+		Key:        "1FAA9",
+		Value:      "🪩",
+		Descriptor: "",
+	},
+	"1FAAA": {
+		Key:        "1FAAA",
+		Value:      "🪪",
+		Descriptor: "",
+	},
+	"1FAAB": {
+		Key:        "1FAAB",
+		Value:      "🪫",
+		Descriptor: "",
+	},
+	"1FAAC": {
+		Key:        "1FAAC",
+		Value:      "🪬",
+		Descriptor: "",
+	},
+	"1FAAD": {
+		Key:        "1FAAD",
+		Value:      "🪭",
+		Descriptor: "",
+	},
+	"1FAAE": {
+		Key:        "1FAAE",
+		Value:      "🪮",
+		Descriptor: "",
+	},
+	"1FAAF": {
+		Key:        "1FAAF",
+		Value:      "🪯",
+		Descriptor: "",
+	},
+	"1FAB3": {
+		Key:        "1FAB3",
+		Value:      "🪳",
+		Descriptor: "",
+	},
+	"1FAB4": {
+		Key:        "1FAB4",
+		Value:      "🪴",
+		Descriptor: "",
+	},
+	"1FAB5": {
+		Key:        "1FAB5",
+		Value:      "🪵",
+		Descriptor: "",
+	},
+	"1FAB7": {
+		Key:        "1FAB7",
+		Value:      "🪷",
+		Descriptor: "",
+	},
+	"1FAB9": {
+		Key:        "1FAB9",
+		Value:      "🪹",
+		Descriptor: "",
+	},
+	"1FABA": {
+		Key:        "1FABA",
+		Value:      "🪺",
+		Descriptor: "",
+	},
+	"1FABB": {
+		Key:        "1FABB",
+		Value:      "🪻",
+		Descriptor: "",
+	},
+	"1FABD": {
+		Key:        "1FABD",
+		Value:      "🪽",
+		Descriptor: "",
+	},
+	"1FAC0": {
+		Key:        "1FAC0",
+		Value:      "🫀",
+		Descriptor: "",
+	},
+	"1FAC1": {
+		Key:        "1FAC1",
+		Value:      "🫁",
+		Descriptor: "",
+	},
+	"1FAD0": {
+		Key:        "1FAD0",
+		Value:      "🫐",
+		Descriptor: "",
+	},
+	"1FAD1": {
+		Key:        "1FAD1",
+		Value:      "🫑",
+		Descriptor: "",
+	},
+	"1FAD2": {
+		Key:        "1FAD2",
+		Value:      "🫒",
+		Descriptor: "",
+	},
+	"1FAD3": {
+		Key:        "1FAD3",
+		Value:      "🫓",
+		Descriptor: "",
+	},
+	"1FAD4": {
+		Key:        "1FAD4",
+		Value:      "🫔",
+		Descriptor: "",
+	},
+	"1FAD5": {
+		Key:        "1FAD5",
+		Value:      "🫕",
+		Descriptor: "",
+	},
+	"1FAD6": {
+		Key:        "1FAD6",
+		Value:      "🫖",
+		Descriptor: "",
+	},
+	"1FAD7": {
+		Key:        "1FAD7",
+		Value:      "🫗",
+		Descriptor: "",
+	},
+	"1FAD8": {
+		Key:        "1FAD8",
+		Value:      "🫘",
+		Descriptor: "",
+	},
+	"1FAD9": {
+		Key:        "1FAD9",
+		Value:      "🫙",
+		Descriptor: "",
+	},
+	"1FADA": {
+		Key:        "1FADA",
+		Value:      "🫚",
+		Descriptor: "",
+	},
+	"1FADB": {
+		Key:        "1FADB",
+		Value:      "🫛",
+		Descriptor: "",
+	},
+	"1FAE1": {
+		Key:        "1FAE1",
+		Value:      "🫡",
+		Descriptor: "",
+	},
+	"1FAE4": {
+		Key:        "1FAE4",
+		Value:      "🫤",
+		Descriptor: "",
+	},
+	"1FAE6": {
+		Key:        "1FAE6",
+		Value:      "🫦",
+		Descriptor: "",
+	},
+	"1FAE7": {
+		Key:        "1FAE7",
+		Value:      "🫧",
+		Descriptor: "",
+	},
+	"1FAF0": {
+		Key:        "1FAF0",
+		Value:      "🫰",
+		Descriptor: "",
+	},
+	"1FAF1": {
+		Key:        "1FAF1",
+		Value:      "🫱",
+		Descriptor: "",
+	},
+	"1FAF2": {
+		Key:        "1FAF2",
+		Value:      "🫲",
+		Descriptor: "",
+	},
+	"1FAF3": {
+		Key:        "1FAF3",
+		Value:      "🫳",
+		Descriptor: "",
+	},
+	"1FAF4": {
+		Key:        "1FAF4",
+		Value:      "🫴",
+		Descriptor: "",
+	},
+	"1FAF5": {
+		Key:        "1FAF5",
+		Value:      "🫵",
+		Descriptor: "",
+	},
+	"1FAF6": {
+		Key:        "1FAF6",
+		Value:      "🫶",
+		Descriptor: "",
+	},
+	"1FAF7": {
+		Key:        "1FAF7",
+		Value:      "🫷",
+		Descriptor: "",
+	},
+	"1FAF8": {
+		Key:        "1FAF8",
+		Value:      "🫸",
+		Descriptor: "",
+	},
+	"2014-2014": {
+		Key:        "2014-2014",
+		Value:      "——",
+		Descriptor: "",
+	},
+	"2018": {
+		Key:        "2018",
+		Value:      "‘",
+		Descriptor: "",
+	},
+	"2019": {
+		Key:        "2019",
+		Value:      "’",
+		Descriptor: "",
+	},
+	"201C": {
+		Key:        "201C",
+		Value:      "“",
+		Descriptor: "",
+	},
+	"201D": {
+		Key:        "201D",
+		Value:      "”",
+		Descriptor: "",
+	},
+	"2020": {
+		Key:        "2020",
+		Value:      "†",
+		Descriptor: "",
+	},
+	"2026-2026": {
+		Key:        "2026-2026",
+		Value:      "……",
+		Descriptor: "",
+	},
+	"2030": {
+		Key:        "2030",
+		Value:      "‰",
+		Descriptor: "",
+	},
+	"2031": {
+		Key:        "2031",
+		Value:      "‱",
+		Descriptor: "",
+	},
+	"203B": {
+		Key:        "203B",
+		Value:      "※",
+		Descriptor: "",
+	},
+	"2070": {
+		Key:        "2070",
+		Value:      "⁰",
+		Descriptor: "",
+	},
+	"2074": {
+		Key:        "2074",
+		Value:      "⁴",
+		Descriptor: "",
+	},
+	"2075": {
+		Key:        "2075",
+		Value:      "⁵",
+		Descriptor: "",
+	},
+	"2076": {
+		Key:        "2076",
+		Value:      "⁶",
+		Descriptor: "",
+	},
+	"2077": {
+		Key:        "2077",
+		Value:      "⁷",
+		Descriptor: "",
+	},
+	"2078": {
+		Key:        "2078",
+		Value:      "⁸",
+		Descriptor: "",
+	},
+	"2079": {
+		Key:        "2079",
+		Value:      "⁹",
+		Descriptor: "",
+	},
+	"2080": {
+		Key:        "2080",
+		Value:      "₀",
+		Descriptor: "",
+	},
+	"2081": {
+		Key:        "2081",
+		Value:      "₁",
+		Descriptor: "",
+	},
+	"2082": {
+		Key:        "2082",
+		Value:      "₂",
+		Descriptor: "",
+	},
+	"2083": {
+		Key:        "2083",
+		Value:      "₃",
+		Descriptor: "",
+	},
+	"2084": {
+		Key:        "2084",
+		Value:      "₄",
+		Descriptor: "",
+	},
+	"2085": {
+		Key:        "2085",
+		Value:      "₅",
+		Descriptor: "",
+	},
+	"2086": {
+		Key:        "2086",
+		Value:      "₆",
+		Descriptor: "",
+	},
+	"2087": {
+		Key:        "2087",
+		Value:      "₇",
+		Descriptor: "",
+	},
+	"2088": {
+		Key:        "2088",
+		Value:      "₈",
+		Descriptor: "",
+	},
+	"2089": {
+		Key:        "2089",
+		Value:      "₉",
+		Descriptor: "",
+	},
+	"20A9": {
+		Key:        "20A9",
+		Value:      "₩",
+		Descriptor: "",
+	},
+	"20AC": {
+		Key:        "20AC",
+		Value:      "€",
+		Descriptor: "",
+	},
+	"2102": {
+		Key:        "2102",
+		Value:      "ℂ",
+		Descriptor: "",
+	},
+	"2103": {
+		Key:        "2103",
+		Value:      "℃",
+		Descriptor: "",
+	},
+	"2109": {
+		Key:        "2109",
+		Value:      "℉",
+		Descriptor: "",
+	},
+	"2115": {
+		Key:        "2115",
+		Value:      "ℕ",
+		Descriptor: "",
+	},
+	"2117": {
+		Key:        "2117",
+		Value:      "℗",
+		Descriptor: "",
+	},
+	"211A": {
+		Key:        "211A",
+		Value:      "ℚ",
+		Descriptor: "",
+	},
+	"211D": {
+		Key:        "211D",
+		Value:      "ℝ",
+		Descriptor: "",
+	},
+	"2120": {
+		Key:        "2120",
+		Value:      "℠",
+		Descriptor: "",
+	},
+	"2122": {
+		Key:        "2122",
+		Value:      "™",
+		Descriptor: "",
+	},
+	"2124": {
+		Key:        "2124",
+		Value:      "ℤ",
+		Descriptor: "",
+	},
+	"2150": {
+		Key:        "2150",
+		Value:      "⅐",
+		Descriptor: "",
+	},
+	"2151": {
+		Key:        "2151",
+		Value:      "⅑",
+		Descriptor: "",
+	},
+	"2152": {
+		Key:        "2152",
+		Value:      "⅒",
+		Descriptor: "",
+	},
+	"2153": {
+		Key:        "2153",
+		Value:      "⅓",
+		Descriptor: "",
+	},
+	"2154": {
+		Key:        "2154",
+		Value:      "⅔",
+		Descriptor: "",
+	},
+	"2155": {
+		Key:        "2155",
+		Value:      "⅕",
+		Descriptor: "",
+	},
+	"2159": {
+		Key:        "2159",
+		Value:      "⅙",
+		Descriptor: "",
+	},
+	"215B": {
+		Key:        "215B",
+		Value:      "⅛",
+		Descriptor: "",
+	},
+	"2190": {
+		Key:        "2190",
+		Value:      "←",
+		Descriptor: "",
+	},
+	"2191": {
+		Key:        "2191",
+		Value:      "↑",
+		Descriptor: "",
+	},
+	"2192": {
+		Key:        "2192",
+		Value:      "→",
+		Descriptor: "",
+	},
+	"2193": {
+		Key:        "2193",
+		Value:      "↓",
+		Descriptor: "",
+	},
+	"2194": {
+		Key:        "2194",
+		Value:      "↔",
+		Descriptor: "",
+	},
+	"2195": {
+		Key:        "2195",
+		Value:      "↕",
+		Descriptor: "",
+	},
+	"2197": {
+		Key:        "2197",
+		Value:      "↗",
+		Descriptor: "",
+	},
+	"2198": {
+		Key:        "2198",
+		Value:      "↘",
+		Descriptor: "",
+	},
+	"21B5": {
+		Key:        "21B5",
+		Value:      "↵",
+		Descriptor: "",
+	},
+	"21D2": {
+		Key:        "21D2",
+		Value:      "⇒",
+		Descriptor: "",
+	},
+	"21E5": {
+		Key:        "21E5",
+		Value:      "⇥",
+		Descriptor: "",
+	},
+	"21E7": {
+		Key:        "21E7",
+		Value:      "⇧",
+		Descriptor: "",
+	},
+	"21EA": {
+		Key:        "21EA",
+		Value:      "⇪",
+		Descriptor: "",
+	},
+	"2205": {
+		Key:        "2205",
+		Value:      "∅",
+		Descriptor: "",
+	},
+	"2212": {
+		Key:        "2212",
+		Value:      "−",
+		Descriptor: "",
+	},
+	"221A": {
+		Key:        "221A",
+		Value:      "√",
+		Descriptor: "",
+	},
+	"221B": {
+		Key:        "221B",
+		Value:      "∛",
+		Descriptor: "",
+	},
+	"221C": {
+		Key:        "221C",
+		Value:      "∜",
+		Descriptor: "",
+	},
+	"221D": {
+		Key:        "221D",
+		Value:      "∝",
+		Descriptor: "",
+	},
+	"221E": {
+		Key:        "221E",
+		Value:      "∞",
+		Descriptor: "",
+	},
+	"222B": {
+		Key:        "222B",
+		Value:      "∫",
+		Descriptor: "",
+	},
+	"222C": {
+		Key:        "222C",
+		Value:      "∬",
+		Descriptor: "",
+	},
+	"222D": {
+		Key:        "222D",
+		Value:      "∭",
+		Descriptor: "",
+	},
+	"2234": {
+		Key:        "2234",
+		Value:      "∴",
+		Descriptor: "",
+	},
+	"2235": {
+		Key:        "2235",
+		Value:      "∵",
+		Descriptor: "",
+	},
+	"2248": {
+		Key:        "2248",
+		Value:      "≈",
+		Descriptor: "",
+	},
+	"2260": {
+		Key:        "2260",
+		Value:      "≠",
+		Descriptor: "",
+	},
+	"2264": {
+		Key:        "2264",
+		Value:      "≤",
+		Descriptor: "",
+	},
+	"2265": {
+		Key:        "2265",
+		Value:      "≥",
+		Descriptor: "",
+	},
+	"226A": {
+		Key:        "226A",
+		Value:      "≪",
+		Descriptor: "",
+	},
+	"226B": {
+		Key:        "226B",
+		Value:      "≫",
+		Descriptor: "",
+	},
+	"2295": {
+		Key:        "2295",
+		Value:      "⊕",
+		Descriptor: "",
+	},
+	"22C5": {
+		Key:        "22C5",
+		Value:      "⋅",
+		Descriptor: "",
+	},
+	"2303": {
+		Key:        "2303",
+		Value:      "⌃",
+		Descriptor: "",
+	},
+	"2305": {
+		Key:        "2305",
+		Value:      "⌅",
+		Descriptor: "",
+	},
+	"2318": {
+		Key:        "2318",
+		Value:      "⌘",
+		Descriptor: "",
+	},
+	"231A-FE0F": {
+		Key:        "231A-FE0F",
+		Value:      "⌚️",
+		Descriptor: "",
+	},
+	"231B-FE0F": {
+		Key:        "231B-FE0F",
+		Value:      "⌛️",
+		Descriptor: "",
+	},
+	"2325": {
+		Key:        "2325",
+		Value:      "⌥",
+		Descriptor: "",
+	},
+	"2326": {
+		Key:        "2326",
+		Value:      "⌦",
+		Descriptor: "",
+	},
+	"2327": {
+		Key:        "2327",
+		Value:      "⌧",
+		Descriptor: "",
+	},
+	"232B": {
+		Key:        "232B",
+		Value:      "⌫",
+		Descriptor: "",
+	},
+	"238B": {
+		Key:        "238B",
+		Value:      "⎋",
+		Descriptor: "",
+	},
+	"23CE": {
+		Key:        "23CE",
+		Value:      "⏎",
+		Descriptor: "",
+	},
+	"23CF": {
+		Key:        "23CF",
+		Value:      "⏏",
+		Descriptor: "",
+	},
+	"23ED": {
+		Key:        "23ED",
+		Value:      "⏭",
+		Descriptor: "",
+	},
+	"23EE": {
+		Key:        "23EE",
+		Value:      "⏮",
+		Descriptor: "",
+	},
+	"23EF": {
+		Key:        "23EF",
+		Value:      "⏯",
+		Descriptor: "",
+	},
+	"23F1": {
+		Key:        "23F1",
+		Value:      "⏱",
+		Descriptor: "",
+	},
+	"23F2": {
+		Key:        "23F2",
+		Value:      "⏲",
+		Descriptor: "",
+	},
+	"23F8": {
+		Key:        "23F8",
+		Value:      "⏸",
+		Descriptor: "",
+	},
+	"23F9": {
+		Key:        "23F9",
+		Value:      "⏹",
+		Descriptor: "",
+	},
+	"23FA": {
+		Key:        "23FA",
+		Value:      "⏺",
+		Descriptor: "",
+	},
+	"24": {
+		Key:        "24",
+		Value:      "$",
+		Descriptor: "",
+	},
+	"2460": {
+		Key:        "2460",
+		Value:      "①",
+		Descriptor: "",
+	},
+	"2461": {
+		Key:        "2461",
+		Value:      "②",
+		Descriptor: "",
+	},
+	"2462": {
+		Key:        "2462",
+		Value:      "③",
+		Descriptor: "",
+	},
+	"2463": {
+		Key:        "2463",
+		Value:      "④",
+		Descriptor: "",
+	},
+	"2464": {
+		Key:        "2464",
+		Value:      "⑤",
+		Descriptor: "",
+	},
+	"2465": {
+		Key:        "2465",
+		Value:      "⑥",
+		Descriptor: "",
+	},
+	"2466": {
+		Key:        "2466",
+		Value:      "⑦",
+		Descriptor: "",
+	},
+	"2467": {
+		Key:        "2467",
+		Value:      "⑧",
+		Descriptor: "",
+	},
+	"2468": {
+		Key:        "2468",
+		Value:      "⑨",
+		Descriptor: "",
+	},
+	"2469": {
+		Key:        "2469",
+		Value:      "⑩",
+		Descriptor: "",
+	},
+	"246A": {
+		Key:        "246A",
+		Value:      "⑪",
+		Descriptor: "",
+	},
+	"246B": {
+		Key:        "246B",
+		Value:      "⑫",
+		Descriptor: "",
+	},
+	"246C": {
+		Key:        "246C",
+		Value:      "⑬",
+		Descriptor: "",
+	},
+	"246D": {
+		Key:        "246D",
+		Value:      "⑭",
+		Descriptor: "",
+	},
+	"246E": {
+		Key:        "246E",
+		Value:      "⑮",
+		Descriptor: "",
+	},
+	"246F": {
+		Key:        "246F",
+		Value:      "⑯",
+		Descriptor: "",
+	},
+	"2470": {
+		Key:        "2470",
+		Value:      "⑰",
+		Descriptor: "",
+	},
+	"2471": {
+		Key:        "2471",
+		Value:      "⑱",
+		Descriptor: "",
+	},
+	"2472": {
+		Key:        "2472",
+		Value:      "⑲",
+		Descriptor: "",
+	},
+	"2473": {
+		Key:        "2473",
+		Value:      "⑳",
+		Descriptor: "",
+	},
+	"248E9": {
+		Key:        "248E9",
+		Value:      "𤣩",
+		Descriptor: "",
+	},
+	"24EA": {
+		Key:        "24EA",
+		Value:      "⓪",
+		Descriptor: "",
+	},
+	"25": {
+		Key:        "25",
+		Value:      "%",
+		Descriptor: "",
+	},
+	"25A0": {
+		Key:        "25A0",
+		Value:      "■",
+		Descriptor: "",
+	},
+	"25A1": {
+		Key:        "25A1",
+		Value:      "□",
+		Descriptor: "",
+	},
+	"25A2": {
+		Key:        "25A2",
+		Value:      "▢",
+		Descriptor: "",
+	},
+	"25AD": {
+		Key:        "25AD",
+		Value:      "▭",
+		Descriptor: "",
+	},
+	"25B1": {
+		Key:        "25B1",
+		Value:      "▱",
+		Descriptor: "",
+	},
+	"25B2": {
+		Key:        "25B2",
+		Value:      "▲",
+		Descriptor: "",
+	},
+	"25B3": {
+		Key:        "25B3",
+		Value:      "△",
+		Descriptor: "",
+	},
+	"25C7": {
+		Key:        "25C7",
+		Value:      "◇",
+		Descriptor: "",
+	},
+	"25CB": {
+		Key:        "25CB",
+		Value:      "○",
+		Descriptor: "",
+	},
+	"25FD-FE0F": {
+		Key:        "25FD-FE0F",
+		Value:      "◽️",
+		Descriptor: "",
+	},
+	"25FE-FE0F": {
+		Key:        "25FE-FE0F",
+		Value:      "◾️",
+		Descriptor: "",
+	},
+	"2605": {
+		Key:        "2605",
+		Value:      "★",
+		Descriptor: "",
+	},
+	"2606": {
+		Key:        "2606",
+		Value:      "☆",
+		Descriptor: "",
+	},
+	"2611": {
+		Key:        "2611",
+		Value:      "☑",
+		Descriptor: "",
+	},
+	"2612": {
+		Key:        "2612",
+		Value:      "☒",
+		Descriptor: "",
+	},
+	"2614-FE0F": {
+		Key:        "2614-FE0F",
+		Value:      "☔️",
+		Descriptor: "",
+	},
+	"2630": {
+		Key:        "2630",
+		Value:      "☰",
+		Descriptor: "",
+	},
+	"2631": {
+		Key:        "2631",
+		Value:      "☱",
+		Descriptor: "",
+	},
+	"2632": {
+		Key:        "2632",
+		Value:      "☲",
+		Descriptor: "",
+	},
+	"2633": {
+		Key:        "2633",
+		Value:      "☳",
+		Descriptor: "",
+	},
+	"2634": {
+		Key:        "2634",
+		Value:      "☴",
+		Descriptor: "",
+	},
+	"2635": {
+		Key:        "2635",
+		Value:      "☵",
+		Descriptor: "",
+	},
+	"2636": {
+		Key:        "2636",
+		Value:      "☶",
+		Descriptor: "",
+	},
+	"2637": {
+		Key:        "2637",
+		Value:      "☷",
+		Descriptor: "",
+	},
+	"2640": {
+		Key:        "2640",
+		Value:      "♀",
+		Descriptor: "",
+	},
+	"2642": {
+		Key:        "2642",
+		Value:      "♂",
+		Descriptor: "",
+	},
+	"2648-FE0F": {
+		Key:        "2648-FE0F",
+		Value:      "♈️",
+		Descriptor: "",
+	},
+	"2649-FE0F": {
+		Key:        "2649-FE0F",
+		Value:      "♉️",
+		Descriptor: "",
+	},
+	"264A-FE0F": {
+		Key:        "264A-FE0F",
+		Value:      "♊️",
+		Descriptor: "",
+	},
+	"264B-FE0F": {
+		Key:        "264B-FE0F",
+		Value:      "♋️",
+		Descriptor: "",
+	},
+	"264C-FE0F": {
+		Key:        "264C-FE0F",
+		Value:      "♌️",
+		Descriptor: "",
+	},
+	"264D-FE0F": {
+		Key:        "264D-FE0F",
+		Value:      "♍️",
+		Descriptor: "",
+	},
+	"264E-FE0F": {
+		Key:        "264E-FE0F",
+		Value:      "♎️",
+		Descriptor: "",
+	},
+	"264F-FE0F": {
+		Key:        "264F-FE0F",
+		Value:      "♏️",
+		Descriptor: "",
+	},
+	"2650-FE0F": {
+		Key:        "2650-FE0F",
+		Value:      "♐️",
+		Descriptor: "",
+	},
+	"2651-FE0F": {
+		Key:        "2651-FE0F",
+		Value:      "♑️",
+		Descriptor: "",
+	},
+	"2652-FE0F": {
+		Key:        "2652-FE0F",
+		Value:      "♒️",
+		Descriptor: "",
+	},
+	"2653-FE0F": {
+		Key:        "2653-FE0F",
+		Value:      "♓️",
+		Descriptor: "",
+	},
+	"265F": {
+		Key:        "265F",
+		Value:      "♟",
+		Descriptor: "",
+	},
+	"2661": {
+		Key:        "2661",
+		Value:      "♡",
+		Descriptor: "",
+	},
+	"2665-FE0E": {
+		Key:        "2665-FE0E",
+		Value:      "♥︎",
+		Descriptor: "",
+	},
+	"2669": {
+		Key:        "2669",
+		Value:      "♩",
+		Descriptor: "",
+	},
+	"266A": {
+		Key:        "266A",
+		Value:      "♪",
+		Descriptor: "",
+	},
+	"266B": {
+		Key:        "266B",
+		Value:      "♫",
+		Descriptor: "",
+	},
+	"266C": {
+		Key:        "266C",
+		Value:      "♬",
+		Descriptor: "",
+	},
+	"267E": {
+		Key:        "267E",
+		Value:      "♾",
+		Descriptor: "",
+	},
+	"267F-FE0F": {
+		Key:        "267F-FE0F",
+		Value:      "♿️",
+		Descriptor: "",
+	},
+	"2692": {
+		Key:        "2692",
+		Value:      "⚒",
+		Descriptor: "",
+	},
+	"2693-FE0F": {
+		Key:        "2693-FE0F",
+		Value:      "⚓️",
+		Descriptor: "",
+	},
+	"26A0-FE0E": {
+		Key:        "26A0-FE0E",
+		Value:      "⚠︎",
+		Descriptor: "",
+	},
+	"26A1-FE0F": {
+		Key:        "26A1-FE0F",
+		Value:      "⚡️",
+		Descriptor: "",
+	},
+	"26A7": {
+		Key:        "26A7",
+		Value:      "⚧",
+		Descriptor: "",
+	},
+	"26AA-FE0F": {
+		Key:        "26AA-FE0F",
+		Value:      "⚪️",
+		Descriptor: "",
+	},
+	"26AB-FE0F": {
+		Key:        "26AB-FE0F",
+		Value:      "⚫️",
+		Descriptor: "",
+	},
+	"26BD-FE0F": {
+		Key:        "26BD-FE0F",
+		Value:      "⚽️",
+		Descriptor: "",
+	},
+	"26BE-FE0F": {
+		Key:        "26BE-FE0F",
+		Value:      "⚾️",
+		Descriptor: "",
+	},
+	"26C4-FE0F": {
+		Key:        "26C4-FE0F",
+		Value:      "⛄️",
+		Descriptor: "",
+	},
+	"26C5-FE0F": {
+		Key:        "26C5-FE0F",
+		Value:      "⛅️",
+		Descriptor: "",
+	},
+	"26C8": {
+		Key:        "26C8",
+		Value:      "⛈",
+		Descriptor: "",
+	},
+	"26CF": {
+		Key:        "26CF",
+		Value:      "⛏",
+		Descriptor: "",
+	},
+	"26D3": {
+		Key:        "26D3",
+		Value:      "⛓",
+		Descriptor: "",
+	},
+	"26D3-FE0F-200D-1F4A5": {
+		Key:        "26D3-FE0F-200D-1F4A5",
+		Value:      "⛓️‍💥",
+		Descriptor: "",
+	},
+	"26D4-FE0F": {
+		Key:        "26D4-FE0F",
+		Value:      "⛔️",
+		Descriptor: "",
+	},
+	"26E9": {
+		Key:        "26E9",
+		Value:      "⛩",
+		Descriptor: "",
+	},
+	"26EA-FE0F": {
+		Key:        "26EA-FE0F",
+		Value:      "⛪️",
+		Descriptor: "",
+	},
+	"26F0": {
+		Key:        "26F0",
+		Value:      "⛰",
+		Descriptor: "",
+	},
+	"26F1": {
+		Key:        "26F1",
+		Value:      "⛱",
+		Descriptor: "",
+	},
+	"26F2-FE0F": {
+		Key:        "26F2-FE0F",
+		Value:      "⛲️",
+		Descriptor: "",
+	},
+	"26F3-FE0F": {
+		Key:        "26F3-FE0F",
+		Value:      "⛳️",
+		Descriptor: "",
+	},
+	"26F4": {
+		Key:        "26F4",
+		Value:      "⛴",
+		Descriptor: "",
+	},
+	"26F5-FE0F": {
+		Key:        "26F5-FE0F",
+		Value:      "⛵️",
+		Descriptor: "",
+	},
+	"26F7": {
+		Key:        "26F7",
+		Value:      "⛷",
+		Descriptor: "",
+	},
+	"26F8": {
+		Key:        "26F8",
+		Value:      "⛸",
+		Descriptor: "",
+	},
+	"26F9-200D-2640-FE0F": {
+		Key:        "26F9-200D-2640-FE0F",
+		Value:      "⛹‍♀️ ",
+		Descriptor: "",
+	},
+	"26F9-200D-2642-FE0F": {
+		Key:        "26F9-200D-2642-FE0F",
+		Value:      "⛹‍♂️ ",
+		Descriptor: "",
+	},
+	"26FA-FE0F": {
+		Key:        "26FA-FE0F",
+		Value:      "⛺️",
+		Descriptor: "",
+	},
+	"26FD-FE0F": {
+		Key:        "26FD-FE0F",
+		Value:      "⛽️",
+		Descriptor: "",
+	},
+	"2713": {
+		Key:        "2713",
+		Value:      "✓",
+		Descriptor: "",
+	},
+	"2715": {
+		Key:        "2715",
+		Value:      "✕",
+		Descriptor: "",
+	},
+	"2726": {
+		Key:        "2726",
+		Value:      "✦",
+		Descriptor: "",
+	},
+	"2727": {
+		Key:        "2727",
+		Value:      "✧",
+		Descriptor: "",
+	},
+	"2742": {
+		Key:        "2742",
+		Value:      "❂",
+		Descriptor: "",
+	},
+	"2757-FE0F": {
+		Key:        "2757-FE0F",
+		Value:      "❗️",
+		Descriptor: "",
+	},
+	"2764-FE0E": {
+		Key:        "2764-FE0E",
+		Value:      "❤︎",
+		Descriptor: "",
+	},
+	"2764-FE0F-200D-1F525": {
+		Key:        "2764-FE0F-200D-1F525",
+		Value:      "❤️‍🔥",
+		Descriptor: "",
+	},
+	"2764-FE0F-200D-1FA79": {
+		Key:        "2764-FE0F-200D-1FA79",
+		Value:      "❤️‍🩹",
+		Descriptor: "",
+	},
+	"27F2": {
+		Key:        "27F2",
+		Value:      "⟲",
+		Descriptor: "",
+	},
+	"27F3": {
+		Key:        "27F3",
+		Value:      "⟳",
+		Descriptor: "",
+	},
+	"2A2F": {
+		Key:        "2A2F",
+		Value:      "⨯",
+		Descriptor: "",
+	},
+	"2B": {
+		Key:        "2B",
+		Value:      "+",
+		Descriptor: "",
+	},
+	"2B06": {
+		Key:        "2B06",
+		Value:      "⬆",
+		Descriptor: "",
+	},
+	"2B1B-FE0F": {
+		Key:        "2B1B-FE0F",
+		Value:      "⬛️",
+		Descriptor: "",
+	},
+	"2B1C-FE0F": {
+		Key:        "2B1C-FE0F",
+		Value:      "⬜️",
+		Descriptor: "",
+	},
+	"2B50-FE0F": {
+		Key:        "2B50-FE0F",
+		Value:      "⭐️",
+		Descriptor: "",
+	},
+	"2B55-FE0F": {
+		Key:        "2B55-FE0F",
+		Value:      "⭕️",
+		Descriptor: "",
+	},
+	"2E5": {
+		Key:        "2E5",
+		Value:      "˥",
+		Descriptor: "",
+	},
+	"2E6": {
+		Key:        "2E6",
+		Value:      "˦",
+		Descriptor: "",
+	},
+	"2E7": {
+		Key:        "2E7",
+		Value:      "˧",
+		Descriptor: "",
+	},
+	"2E7-2E5": {
+		Key:        "2E7-2E5",
+		Value:      "˧˥",
+		Descriptor: "",
+	},
+	"2E8": {
+		Key:        "2E8",
+		Value:      "˨",
+		Descriptor: "",
+	},
+	"2E8-2E9": {
+		Key:        "2E8-2E9",
+		Value:      "˨˩",
+		Descriptor: "",
+	},
+	"2E9": {
+		Key:        "2E9",
+		Value:      "˩",
+		Descriptor: "",
+	},
+	"2E9-2E7": {
+		Key:        "2E9-2E7",
+		Value:      "˩˧",
+		Descriptor: "",
+	},
+	"2EAE": {
+		Key:        "2EAE",
+		Value:      "⺮",
+		Descriptor: "",
+	},
+	"2ECA": {
+		Key:        "2ECA",
+		Value:      "⻊",
+		Descriptor: "",
+	},
+	"2ECD": {
+		Key:        "2ECD",
+		Value:      "⻍",
+		Descriptor: "",
+	},
+	"2ECF": {
+		Key:        "2ECF",
+		Value:      "⻏",
+		Descriptor: "",
+	},
+	"2FF0": {
+		Key:        "2FF0",
+		Value:      "⿰",
+		Descriptor: "",
+	},
+	"2FF1": {
+		Key:        "2FF1",
+		Value:      "⿱",
+		Descriptor: "",
+	},
+	"2FF2": {
+		Key:        "2FF2",
+		Value:      "⿲",
+		Descriptor: "",
+	},
+	"2FF3": {
+		Key:        "2FF3",
+		Value:      "⿳",
+		Descriptor: "",
+	},
+	"2FF4": {
+		Key:        "2FF4",
+		Value:      "⿴",
+		Descriptor: "",
+	},
+	"2FF5": {
+		Key:        "2FF5",
+		Value:      "⿵",
+		Descriptor: "",
+	},
+	"2FF6": {
+		Key:        "2FF6",
+		Value:      "⿶",
+		Descriptor: "",
+	},
+	"2FF7": {
+		Key:        "2FF7",
+		Value:      "⿷",
+		Descriptor: "",
+	},
+	"2FF8": {
+		Key:        "2FF8",
+		Value:      "⿸",
+		Descriptor: "",
+	},
+	"2FF9": {
+		Key:        "2FF9",
+		Value:      "⿹",
+		Descriptor: "",
+	},
+	"2FFA": {
+		Key:        "2FFA",
+		Value:      "⿺",
+		Descriptor: "",
+	},
+	"2FFB": {
+		Key:        "2FFB",
+		Value:      "⿻",
+		Descriptor: "",
+	},
+	"2FFC": {
+		Key:        "2FFC",
+		Value:      "⿼",
+		Descriptor: "",
+	},
+	"2FFD": {
+		Key:        "2FFD",
+		Value:      "⿽",
+		Descriptor: "",
+	},
+	"2FFE": {
+		Key:        "2FFE",
+		Value:      "⿾",
+		Descriptor: "",
+	},
+	"2FFF": {
+		Key:        "2FFF",
+		Value:      "⿿",
+		Descriptor: "",
+	},
+	"303E": {
+		Key:        "303E",
+		Value:      "〾",
+		Descriptor: "",
+	},
+	"30FB": {
+		Key:        "30FB",
+		Value:      "・",
+		Descriptor: "",
+	},
+	"31-30-30-25": {
+		Key:        "31-30-30-25",
+		Value:      "100%",
+		Descriptor: "",
+	},
+	"31-38-30-B0": {
+		Key:        "31-38-30-B0",
+		Value:      "180°",
+		Descriptor: "",
+	},
+	"31EF": {
+		Key:        "31EF",
+		Value:      "㇯",
+		Descriptor: "",
+	},
+	"3251": {
+		Key:        "3251",
+		Value:      "㉑",
+		Descriptor: "",
+	},
+	"3252": {
+		Key:        "3252",
+		Value:      "㉒",
+		Descriptor: "",
+	},
+	"3253": {
+		Key:        "3253",
+		Value:      "㉓",
+		Descriptor: "",
+	},
+	"3254": {
+		Key:        "3254",
+		Value:      "㉔",
+		Descriptor: "",
+	},
+	"3255": {
+		Key:        "3255",
+		Value:      "㉕",
+		Descriptor: "",
+	},
+	"3256": {
+		Key:        "3256",
+		Value:      "㉖",
+		Descriptor: "",
+	},
+	"3257": {
+		Key:        "3257",
+		Value:      "㉗",
+		Descriptor: "",
+	},
+	"3258": {
+		Key:        "3258",
+		Value:      "㉘",
+		Descriptor: "",
+	},
+	"3259": {
+		Key:        "3259",
+		Value:      "㉙",
+		Descriptor: "",
+	},
+	"325A": {
+		Key:        "325A",
+		Value:      "㉚",
+		Descriptor: "",
+	},
+	"325B": {
+		Key:        "325B",
+		Value:      "㉛",
+		Descriptor: "",
+	},
+	"325C": {
+		Key:        "325C",
+		Value:      "㉜",
+		Descriptor: "",
+	},
+	"325D": {
+		Key:        "325D",
+		Value:      "㉝",
+		Descriptor: "",
+	},
+	"325E": {
+		Key:        "325E",
+		Value:      "㉞",
+		Descriptor: "",
+	},
+	"325F": {
+		Key:        "325F",
+		Value:      "㉟",
+		Descriptor: "",
+	},
+	"32B1": {
+		Key:        "32B1",
+		Value:      "㊱",
+		Descriptor: "",
+	},
+	"32B2": {
+		Key:        "32B2",
+		Value:      "㊲",
+		Descriptor: "",
+	},
+	"32B3": {
+		Key:        "32B3",
+		Value:      "㊳",
+		Descriptor: "",
+	},
+	"32B4": {
+		Key:        "32B4",
+		Value:      "㊴",
+		Descriptor: "",
+	},
+	"32B5": {
+		Key:        "32B5",
+		Value:      "㊵",
+		Descriptor: "",
+	},
+	"32B6": {
+		Key:        "32B6",
+		Value:      "㊶",
+		Descriptor: "",
+	},
+	"32B7": {
+		Key:        "32B7",
+		Value:      "㊷",
+		Descriptor: "",
+	},
+	"32B8": {
+		Key:        "32B8",
+		Value:      "㊸",
+		Descriptor: "",
+	},
+	"32B9": {
+		Key:        "32B9",
+		Value:      "㊹",
+		Descriptor: "",
+	},
+	"32BA": {
+		Key:        "32BA",
+		Value:      "㊺",
+		Descriptor: "",
+	},
+	"32BB": {
+		Key:        "32BB",
+		Value:      "㊻",
+		Descriptor: "",
+	},
+	"32BC": {
+		Key:        "32BC",
+		Value:      "㊼",
+		Descriptor: "",
+	},
+	"32BD": {
+		Key:        "32BD",
+		Value:      "㊽",
+		Descriptor: "",
+	},
+	"32BE": {
+		Key:        "32BE",
+		Value:      "㊾",
+		Descriptor: "",
+	},
+	"32BF": {
+		Key:        "32BF",
+		Value:      "㊿",
+		Descriptor: "",
+	},
+	"32FF": {
+		Key:        "32FF",
+		Value:      "㋿",
+		Descriptor: "",
+	},
+	"33-36-30-B0": {
+		Key:        "33-36-30-B0",
+		Value:      "360°",
+		Descriptor: "",
+	},
+	"337B": {
+		Key:        "337B",
+		Value:      "㍻",
+		Descriptor: "",
+	},
+	"337C": {
+		Key:        "337C",
+		Value:      "㍼",
+		Descriptor: "",
+	},
+	"337D": {
+		Key:        "337D",
+		Value:      "㍽",
+		Descriptor: "",
+	},
+	"337E": {
+		Key:        "337E",
+		Value:      "㍾",
+		Descriptor: "",
+	},
+	"39-30-B0": {
+		Key:        "39-30-B0",
+		Value:      "90°",
+		Descriptor: "",
+	},
+	"39-35-32-37": {
+		Key:        "39-35-32-37",
+		Value:      "9527",
+		Descriptor: "",
+	},
+	"39-39-25": {
+		Key:        "39-39-25",
+		Value:      "99%",
+		Descriptor: "",
+	},
+	"393": {
+		Key:        "393",
+		Value:      "Γ",
+		Descriptor: "",
+	},
+	"3A0": {
+		Key:        "3A0",
+		Value:      "Π",
+		Descriptor: "",
+	},
+	"3A3": {
+		Key:        "3A3",
+		Value:      "Σ",
+		Descriptor: "",
+	},
+	"3B3": {
+		Key:        "3B3",
+		Value:      "γ",
+		Descriptor: "",
+	},
+	"3C0": {
+		Key:        "3C0",
+		Value:      "π",
+		Descriptor: "",
+	},
+	"3D": {
+		Key:        "3D",
+		Value:      "=",
+		Descriptor: "",
+	},
+	"45-20-3D-20-6D-63-B2": {
+		Key:        "45-20-3D-20-6D-63-B2",
+		Value:      "E = mc²",
+		Descriptor: "",
+	},
+	"4EBB": {
+		Key:        "4EBB",
+		Value:      "亻",
+		Descriptor: "",
+	},
+	"4EDF": {
+		Key:        "4EDF",
+		Value:      "仟",
+		Descriptor: "",
+	},
+	"4F0D": {
+		Key:        "4F0D",
+		Value:      "伍",
+		Descriptor: "",
+	},
+	"4F70": {
+		Key:        "4F70",
+		Value:      "佰",
+		Descriptor: "",
+	},
+	"51AB": {
+		Key:        "51AB",
+		Value:      "冫",
+		Descriptor: "",
+	},
+	"5202": {
+		Key:        "5202",
+		Value:      "刂",
+		Descriptor: "",
+	},
+	"52F9": {
+		Key:        "52F9",
+		Value:      "勹",
+		Descriptor: "",
+	},
+	"5369": {
+		Key:        "5369",
+		Value:      "卩",
+		Descriptor: "",
+	},
+	"53C1": {
+		Key:        "53C1",
+		Value:      "叁",
+		Descriptor: "",
+	},
+	"56D7": {
+		Key:        "56D7",
+		Value:      "囗",
+		Descriptor: "",
+	},
+	"58F9": {
+		Key:        "58F9",
+		Value:      "壹",
+		Descriptor: "",
+	},
+	"5EF4": {
+		Key:        "5EF4",
+		Value:      "廴",
+		Descriptor: "",
+	},
+	"5F73": {
+		Key:        "5F73",
+		Value:      "彳",
+		Descriptor: "",
+	},
+	"5FC4": {
+		Key:        "5FC4",
+		Value:      "忄",
+		Descriptor: "",
+	},
+	"61-B2-20-2B-20-62-B2-20-3D-20-63-B2": {
+		Key:        "61-B2-20-2B-20-62-B2-20-3D-20-63-B2",
+		Value:      "a² + b² = c²",
+		Descriptor: "",
+	},
+	"624C": {
+		Key:        "624C",
+		Value:      "扌",
+		Descriptor: "",
+	},
+	"62FE": {
+		Key:        "62FE",
+		Value:      "拾",
+		Descriptor: "",
+	},
+	"634C": {
+		Key:        "634C",
+		Value:      "捌",
+		Descriptor: "",
+	},
+	"6534": {
+		Key:        "6534",
+		Value:      "攴",
+		Descriptor: "",
+	},
+	"6535": {
+		Key:        "6535",
+		Value:      "攵",
+		Descriptor: "",
+	},
+	"67D2": {
+		Key:        "67D2",
+		Value:      "柒",
+		Descriptor: "",
+	},
+	"6C35": {
+		Key:        "6C35",
+		Value:      "氵",
+		Descriptor: "",
+	},
+	"706C": {
+		Key:        "706C",
+		Value:      "灬",
+		Descriptor: "",
+	},
+	"722B": {
+		Key:        "722B",
+		Value:      "爫",
+		Descriptor: "",
+	},
+	"72AD": {
+		Key:        "72AD",
+		Value:      "犭",
+		Descriptor: "",
+	},
+	"7396": {
+		Key:        "7396",
+		Value:      "玖",
+		Descriptor: "",
+	},
+	"7592": {
+		Key:        "7592",
+		Value:      "疒",
+		Descriptor: "",
+	},
+	"7676": {
+		Key:        "7676",
+		Value:      "癶",
+		Descriptor: "",
+	},
+	"793B": {
+		Key:        "793B",
+		Value:      "礻",
+		Descriptor: "",
+	},
+	"7CF9": {
+		Key:        "7CF9",
+		Value:      "糹",
+		Descriptor: "",
+	},
+	"7F52": {
+		Key:        "7F52",
+		Value:      "罒",
+		Descriptor: "",
+	},
+	"8086": {
+		Key:        "8086",
+		Value:      "肆",
+		Descriptor: "",
+	},
+	"8279": {
+		Key:        "8279",
+		Value:      "艹",
+		Descriptor: "",
+	},
+	"864D": {
+		Key:        "864D",
+		Value:      "虍",
+		Descriptor: "",
+	},
+	"8864": {
+		Key:        "8864",
+		Value:      "衤",
+		Descriptor: "",
+	},
+	"8980": {
+		Key:        "8980",
+		Value:      "覀",
+		Descriptor: "",
+	},
+	"8A01": {
+		Key:        "8A01",
+		Value:      "訁",
+		Descriptor: "",
+	},
+	"8C78": {
+		Key:        "8C78",
+		Value:      "豸",
+		Descriptor: "",
+	},
+	"8CB3": {
+		Key:        "8CB3",
+		Value:      "貳",
+		Descriptor: "",
+	},
+	"8FB6": {
+		Key:        "8FB6",
+		Value:      "辶",
+		Descriptor: "",
+	},
+	"91D2": {
+		Key:        "91D2",
+		Value:      "釒",
+		Descriptor: "",
+	},
+	"961D": {
+		Key:        "961D",
+		Value:      "阝",
+		Descriptor: "",
+	},
+	"9678": {
+		Key:        "9678",
+		Value:      "陸",
+		Descriptor: "",
+	},
+	"96F6": {
+		Key:        "96F6",
+		Value:      "零",
+		Descriptor: "",
+	},
+	"98E0": {
+		Key:        "98E0",
+		Value:      "飠",
+		Descriptor: "",
+	},
+	"A3": {
+		Key:        "A3",
+		Value:      "£",
+		Descriptor: "",
+	},
+	"A5": {
+		Key:        "A5",
+		Value:      "¥",
+		Descriptor: "",
+	},
+	"A9": {
+		Key:        "A9",
+		Value:      "©",
+		Descriptor: "",
+	},
+	"AE": {
+		Key:        "AE",
+		Value:      "®",
+		Descriptor: "",
+	},
+	"B0": {
+		Key:        "B0",
+		Value:      "°",
+		Descriptor: "",
+	},
+	"B1": {
+		Key:        "B1",
+		Value:      "±",
+		Descriptor: "",
+	},
+	"B2": {
+		Key:        "B2",
+		Value:      "²",
+		Descriptor: "",
+	},
+	"B3": {
+		Key:        "B3",
+		Value:      "³",
+		Descriptor: "",
+	},
+	"B7": {
+		Key:        "B7",
+		Value:      "·",
+		Descriptor: "",
+	},
+	"B9": {
+		Key:        "B9",
+		Value:      "¹",
+		Descriptor: "",
+	},
+	"BC": {
+		Key:        "BC",
+		Value:      "¼",
+		Descriptor: "",
+	},
+	"BD": {
+		Key:        "BD",
+		Value:      "½",
+		Descriptor: "",
+	},
+	"D7": {
+		Key:        "D7",
+		Value:      "×",
+		Descriptor: "",
+	},
+	"EA00": {
+		Key:        "EA00",
+		Value:      "",
+		Descriptor: "",
+	},
+	"F7": {
+		Key:        "F7",
+		Value:      "÷",
+		Descriptor: "",
+	},
+	"F8FF": {
+		Key:        "F8FF",
+		Value:      "",
+		Descriptor: "",
 	},
 }
